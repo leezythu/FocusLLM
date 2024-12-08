@@ -1,0 +1,14 @@
+data
+docs
+*.log
+infbench_data
+*DS_Store
+infbench_results
+.amltconfig
+.amltignore
+/Llama-2-7b-chat-hf
+__pycache__
+/outputs
+*.yaml
+/focusllm-checkpoint
+/cache

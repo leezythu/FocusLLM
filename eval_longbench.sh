@@ -1,0 +1,11 @@
+python -m main.eval_longbench \
+--data_root data \
+--dataset_name qasper \
+--output_dir data/outputs/debug \
+--model_name_or_path ./focusllm-checkpoint \
+--max_length 15500 \
+--enable_beacon True \
+--local_window 3500 \
+--memory_stride 1024 \
+--beacon_param q k v o \
+--eval_data data/longbench/test.json
